@@ -1,0 +1,117 @@
+{
+    "name": "احدث نسخة من سورس افتار!!",
+    "description": " يمكنك تشغيل الملفات الصوتية في مباشرتا في القنوات والمجموعات .",
+    "logo": "https://telegra.ph/file/4fda78aaf200bf313be62.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "VenomX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "~ اكتب الايبي ايدي .",
+        "value": "21397017",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "~ اكتب الايبي هاش .",
+        "value": "0055e80daa57c57190bb90cc60727b74",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "~ اكتب توكن البوت .",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "~ اتركها كما هي .",
+        "value": "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "~ اكتب ايدي المالك او اتركها كما هي .",
+        "value": "",
+        "required": true
+        
+      },
+      "YOUTUBE_IMG_URL": {
+        "description": "~  ضع رابط صورة التشغيل .",
+        "value": "https://telegra.ph/file/4fda78aaf200bf313be62.jpg",
+        "required": true
+        
+      },
+      "SUPPORT_CHAT": {
+        "description": "~  ضع قناة الدعم .",
+        "value": "https://t.me/sourceav",
+        "required": true
+        
+      },
+      "Muntazer": {
+        "description": "~  ضع قناة الاشتراك الاجباري ( لاتنسى رفع البوت مشرف في القناة ) .",
+        "value": "I_YIQ",
+        "required": true
+        
+      },
+      "BOT_IMAGE": {
+        "description": "~  ضع صورة كليشة الاشتراك الاجباري ، يمكنك تجاهل هذا الحقل .",
+        "value": "https://telegra.ph/file/4fda78aaf200bf313be62.jpg",
+        "required": false
+        
+      },
+      "START_IMG_URL": {
+        "description": "~  ضع صورة كليشة  الستارت .",
+        "value": "https://telegra.ph/file/4fda78aaf200bf313be62.jpg",
+        "required": false
+        
+      },
+      "STRING_SESSION": {
+        "description": "~ اكتب كود البايروجرام استخراج البايروجرام  .",
+        "value": "",
+        "required": true
+     },
+      "HEROKU_API_KEY": {
+        "description": "~ ايبي حسابك في هيروكو .",
+        "value": "",
+        "required": true
+     },
+      "HEROKU_APP_NAME": {
+        "description": "~ اسم تطبيقك في الاعلى .",
+        "value": "",
+        "required": true
+
+     },
+      "UPSTREAM_BRANCH": {
+        "description": "~ اتركها كما هي .",
+        "value": "main",
+        "required": true
+          
+     },
+      "LOGGER_ID": {
+        "description": "~ اكتب ايدي القناة حتى يتم وصول احداث البوت اليك .",
+        "value": "-1002125138489",
+        "required": true
+        
+      },
+      "UPSTREAM_REPO": {
+        "description": "~  لاتغيرها أبدا .",
+        "value": "https://github.com/ze12000/xz",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+}
