@@ -42,3 +42,5 @@ youtube-search
 youtube-search-python
 wget
 kvsqlite 
+os
+json
