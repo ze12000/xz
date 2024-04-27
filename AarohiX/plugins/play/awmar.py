@@ -1,16 +1,12 @@
 import asyncio
 import config
 from pyrogram import Client, filters
-from pyrogram import filters
-from strings import get_command
-from strings.filters import command
 from AarohiX import app
-from config.config import OWNER_ID
+from config import OWNER_ID
 from AarohiX.misc import SUDOERS
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, ReplyKeyboardMarkup
 from pyrogram.types import (InlineKeyboardButton,CallbackQuery,InlineKeyboardMarkup, Message)
 from AarohiX import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
-from AarohiX.misc import SUDOERS
 
 @app.on_message(command(["الاوامر","اوامر البوت"]))
 async def abrag(c: Client, m: Message):
