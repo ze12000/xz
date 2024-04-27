@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from AarohiX import app
 
-@app.on_message(filters.command(["زخرفه",""], "")
+@app.on_message(filters.command(["زخرفه","زخرفة"], "")
 & filters.group
 )
 async def zahrafa(c: Client, m: Message):
