@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 from pyrogram.types import (InlineKeyboardButton,CallbackQuery,InlineKeyboardMarkup, Message)
 from AarohiX import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
 
-@app.on_message(command(["الاوامر","اوامر البوت"]))
+@app.on_message(filters.command(["الاوامر","اوامر البوت","اوامر افتار"], ""))
 async def abrag(c: Client, m: Message):
     global mid
     mid = m.message_id
