@@ -42,4 +42,4 @@ youtube-search
 youtube-search-python
 wget
 kvsqlite 
-redis
+pyromod
