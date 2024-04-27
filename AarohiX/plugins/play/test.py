@@ -1,13 +1,10 @@
-'''
-@Y88F8
-@DevZaid
-'''
+
 
 import redis, re
 from pyrogram import *
 from pyrogram.types import *
 from pyrogram.errors import PeerIdInvalid
-from AnonXMusic import app
+from AarohiX import app
 
 
 # create a Redis client
