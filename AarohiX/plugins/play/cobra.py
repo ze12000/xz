@@ -16,7 +16,7 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
-from AnonXMusic import app
+from AarohiX import app
 
 
 @app.on_message(filters.command(["اغاني","الفنان","✨اغاني"], ""))
